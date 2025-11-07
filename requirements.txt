@@ -1,0 +1,55 @@
+# Core Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Deep Learning & Computer Vision
+torch==2.1.0
+torchvision==0.16.0
+onnx==1.15.0
+onnxruntime==1.16.3
+opencv-python==4.8.1.78
+opencv-contrib-python==4.8.1.78
+Pillow==10.1.0
+scikit-image==0.22.0
+
+# Face Recognition Libraries
+insightface==0.7.3
+retinaface-pytorch==0.0.2
+facenet-pytorch==2.5.3
+
+# Vector Search & Database
+faiss-cpu==1.7.4
+sqlalchemy==2.0.23
+alembic==1.13.0
+psycopg2-binary==2.9.9
+
+# Utilities
+numpy==1.24.3
+scipy==1.11.4
+scikit-learn==1.3.2
+pandas==2.1.3
+tqdm==4.66.1
+pyyaml==6.0.1
+python-dotenv==1.0.0
+
+# API Documentation
+swagger-ui-bundle==0.0.9
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+requests==2.31.0
+
+# Monitoring & Logging
+prometheus-client==0.19.0
+python-json-logger==2.0.7
+
+# Development
+black==23.12.0
+flake8==6.1.0
+mypy==1.7.1
+pre-commit==3.6.0
